@@ -1,0 +1,342 @@
+[
+  {
+    "id": "full-stack-project",
+    "name": "Full Stack Project",
+    "description": "End-to-end development of web applications, from frontend to backend.",
+    "image": "/services/fullstack.gif",
+    "tasks": [
+      "Frontend development",
+      "Backend development",
+      "Database integration"
+    ],
+    "cost": "Starting at 200,000frs",
+    "detailedDescription": "Our Full Stack Project service covers the entire spectrum of web application development. We handle everything from crafting intuitive user interfaces to building robust server-side logic and efficient database structures.",
+    "processes": [
+      "Requirements gathering and analysis",
+      "UI/UX design and prototyping",
+      "Frontend development using modern frameworks (e.g., React, Vue.js)",
+      "Backend development with scalable architectures",
+      "Database design and implementation",
+      "API development and integration",
+      "Testing and quality assurance",
+      "Deployment and maintenance"
+    ],
+    "caseStudy": "We recently completed a full-stack e-commerce platform for a client in the fashion industry. The project involved creating a responsive frontend with React, a Node.js backend with Express, and MongoDB for the database. The result was a scalable, high-performance online store that significantly boosted our client's sales.",
+    "officialDocs": "https://reactjs.org/,https://nodejs.org/,https://www.mongodb.com/"
+  },
+  {
+    "id": "consultation",
+    "name": "Consultation",
+    "description": "Expert advice on software development strategies and best practices.",
+    "image": "/services/consultation.jpeg",
+    "tasks": [
+      "Project assessment",
+      "Technology recommendations",
+      "Architecture planning"
+    ],
+    "cost": "5000frs/hour",
+    "detailedDescription": "Our Consultation service provides you with expert advice on software development strategies and best practices. We offer comprehensive assessments of your projects, recommend the best technologies to use, and help you plan robust architectures.",
+    "processes": [
+      "Initial consultation to understand project needs",
+      "Detailed project assessment",
+      "Recommendation of suitable technologies",
+      "Architecture planning and design",
+      "Follow-up consultations for ongoing guidance"
+    ],
+    "caseStudy": "We provided consultation for a fintech startup looking to modernize their technology stack. After a thorough assessment, we recommended a shift to microservices architecture and the use of Kubernetes for container orchestration, significantly improving their system's scalability and reliability.",
+    "officialDocs": "https://kubernetes.io/,https://microservices.io/"
+  },
+  {
+    "id": "analysis",
+    "name": "Analysis",
+    "description": "In-depth analysis of existing systems or project requirements.",
+    "image": "/services/analysis.jpeg",
+    "tasks": [
+      "Requirements gathering",
+      "System evaluation",
+      "Feasibility studies"
+    ],
+    "cost": "Starting at 20,000frs per analysis",
+    "detailedDescription": "Our Analysis service offers a comprehensive evaluation of your existing systems or project requirements. We gather detailed requirements, evaluate current systems, and conduct feasibility studies to ensure your project's success.",
+    "processes": [
+      "Requirements gathering from stakeholders",
+      "Evaluation of existing systems",
+      "Feasibility studies to assess project viability",
+      "Detailed reporting and recommendations",
+      "Presentation of findings and strategic planning"
+    ],
+    "caseStudy": "We conducted an in-depth analysis for a logistics company looking to improve their tracking system. Our study revealed key areas for improvement, leading to the implementation of a more efficient, GPS-based tracking system.",
+    "officialDocs": "https://www.bcs.org/category/19187"
+  },
+  {
+    "id": "ui-ux-conception",
+    "name": "UI and UX Conception",
+    "description": "Design of user-friendly and visually appealing interfaces.",
+    "image": "/services/ui-ux.gif",
+    "tasks": ["Wireframing", "Prototyping", "User testing"],
+    "cost": "Starting at 70,000frs",
+    "detailedDescription": "Our UI and UX Conception service focuses on creating user-friendly and visually appealing interfaces. We design wireframes, build prototypes, and conduct user testing to ensure the best user experience.",
+    "processes": [
+      "Initial user research and analysis",
+      "Creation of wireframes to outline structure",
+      "Development of interactive prototypes",
+      "User testing and feedback collection",
+      "Iteration based on user feedback",
+      "Final design implementation"
+    ],
+    "caseStudy": "For a health tech startup, we designed an intuitive user interface for their mobile app. Through multiple rounds of prototyping and user testing, we developed a seamless experience that significantly improved user engagement.",
+    "officialDocs": "https://www.invisionapp.com/,https://www.adobe.com/products/xd.html"
+  },
+  {
+    "id": "app-architecture-conception",
+    "name": "App Architecture Conception",
+    "description": "Design of scalable and efficient application architectures.",
+    "image": "/services/architecture.gif",
+    "tasks": ["System design", "Component planning", "Integration strategy"],
+    "cost": "Starting at 70,000frs",
+    "detailedDescription": "Our App Architecture Conception service involves designing scalable and efficient application architectures. We plan system design, component interactions, and integration strategies to ensure robust and maintainable applications.",
+    "processes": [
+      "Initial requirements gathering",
+      "High-level system design",
+      "Detailed component planning",
+      "Integration strategy development",
+      "Documentation of architecture",
+      "Review and approval with stakeholders"
+    ],
+    "caseStudy": "We developed a scalable architecture for a financial services company, which included microservices and event-driven components. This architecture supported their rapid growth and enabled seamless integration with third-party services.",
+    "officialDocs": "https://microservices.io/,https://martinfowler.com/eaaDev/"
+  },
+  {
+    "id": "deployment-strategy-setup",
+    "name": "Deployment Strategy Setup",
+    "description": "Planning and implementation of effective deployment strategies.",
+    "image": "/services/deployment.jpeg",
+    "tasks": [
+      "CI/CD pipeline setup",
+      "Environment configuration",
+      "Deployment automation"
+    ],
+    "cost": "Starting at 100,000frs",
+    "detailedDescription": "Our Deployment Strategy Setup service ensures your applications are deployed smoothly and efficiently. We set up CI/CD pipelines, configure environments, and automate deployment processes.",
+    "processes": [
+      "Assessment of deployment needs",
+      "CI/CD pipeline design and implementation",
+      "Configuration of staging and production environments",
+      "Automation of deployment processes",
+      "Monitoring and optimization of deployment",
+      "Documentation and training"
+    ],
+    "caseStudy": "We implemented a CI/CD pipeline for a retail company, integrating Jenkins and Docker. This setup reduced deployment times by 50% and minimized manual intervention, allowing faster and more reliable releases.",
+    "officialDocs": "https://www.jenkins.io/,https://www.docker.com/"
+  },
+  {
+    "id": "development",
+    "name": "Development",
+    "description": "Custom software development tailored to your needs.",
+    "image": "/services/coding.gif",
+    "tasks": ["Code writing", "Testing", "Documentation"],
+    "cost": "5000frs/hour",
+    "detailedDescription": "Our Development service provides custom software development tailored to your specific needs. We handle everything from writing clean, efficient code to thorough testing and comprehensive documentation.",
+    "processes": [
+      "Requirement analysis and specification",
+      "Design and architecture planning",
+      "Agile development with iterative releases",
+      "Unit and integration testing",
+      "User acceptance testing",
+      "Documentation of code and processes",
+      "Deployment and post-deployment support"
+    ],
+    "caseStudy": "We developed a custom CRM system for a client in the real estate industry. The system included features for managing customer interactions, tracking sales, and generating reports, resulting in improved client management and increased sales efficiency.",
+    "officialDocs": "https://www.agilealliance.org/agile101/,https://www.softwaretestinghelp.com/"
+  },
+  {
+    "id": "simple-deployment",
+    "name": "Simple Deployment",
+    "description": "Deployment of applications to basic hosting environments.",
+    "image": "/services/simplehosting.gif",
+    "tasks": ["Server setup", "Application deployment", "Basic configuration"],
+    "cost": "Starting at 50,000frs",
+    "detailedDescription": "Our Simple Deployment service ensures your applications are deployed to basic hosting environments efficiently. We handle server setup, application deployment, and basic configuration to get your application up and running.",
+    "processes": [
+      "Assessment of hosting requirements",
+      "Setup of server environment",
+      "Deployment of application code",
+      "Basic configuration and setup",
+      "Initial testing and validation",
+      "Handover and documentation"
+    ],
+    "caseStudy": "We deployed a static website for a small business using a basic shared hosting service. The process included setting up the server, deploying the website, and configuring basic security measures, resulting in a smooth and cost-effective deployment.",
+    "officialDocs": "https://www.cpanel.net/,https://www.plesk.com/"
+  },
+  {
+    "id": "vps-deployment",
+    "name": "VPS Deployment",
+    "description": "Deployment and configuration of applications on Virtual Private Servers.",
+    "image": "/services/vpsdep.jpeg",
+    "tasks": [
+      "VPS setup",
+      "Security configuration",
+      "Performance optimization"
+    ],
+    "cost": "Starting at 100,000frs",
+    "detailedDescription": "Our VPS Deployment service involves deploying and configuring applications on Virtual Private Servers. We ensure optimal performance and security configurations for your applications.",
+    "processes": [
+      "Assessment of application requirements",
+      "Selection of suitable VPS provider",
+      "Setup of VPS environment",
+      "Deployment of application",
+      "Security configuration and hardening",
+      "Performance tuning and optimization",
+      "Documentation and training"
+    ],
+    "caseStudy": "We deployed a web application for an e-commerce startup on a VPS. The setup included configuring the server, deploying the application, and implementing security measures to protect sensitive customer data, resulting in a secure and high-performance e-commerce platform.",
+    "officialDocs": "https://www.digitalocean.com/,https://www.linode.com/"
+  },
+  {
+    "id": "infrastructure-configuration",
+    "name": "Infrastructure Configuration",
+    "description": "Setup and configuration of IT infrastructure for optimal performance.",
+    "image": "/services/config.gif",
+    "tasks": ["Network setup", "Storage configuration", "Backup solutions"],
+    "cost": "Starting at 300,000frs",
+    "detailedDescription": "Our Infrastructure Configuration service involves setting up and configuring your IT infrastructure for optimal performance. We handle network setup, storage configuration, and implement robust backup solutions.",
+    "processes": [
+      "Assessment of infrastructure needs",
+      "Design of network architecture",
+      "Setup of network components",
+      "Configuration of storage solutions",
+      "Implementation of backup and recovery plans",
+      "Performance tuning and optimization",
+      "Documentation and training"
+    ],
+    "caseStudy": "We configured the IT infrastructure for a mid-sized enterprise, including setting up a secure network, configuring storage solutions, and implementing a comprehensive backup plan. This setup significantly improved their operational efficiency and data security.",
+    "officialDocs": "https://www.cisco.com/,https://www.netapp.com/"
+  },
+  {
+    "id": "hosting-administration",
+    "name": "Hosting Administration",
+    "description": "Comprehensive management of hosting environments.",
+    "image": "/services/serveradmin.gif",
+    "tasks": [
+      "Server monitoring",
+      "Database management",
+      "Email configuration"
+    ],
+    "cost": "25,000frs/month",
+    "detailedDescription": "Our Hosting Administration service provides comprehensive management of your hosting environments, including server monitoring, database management, and email configuration to ensure smooth and efficient operations.",
+    "processes": [
+      "Initial assessment of hosting environment",
+      "Setup of server monitoring tools",
+      "Database management and optimization",
+      "Email configuration and management",
+      "Regular maintenance and updates",
+      "Security monitoring and incident response",
+      "Documentation of administration activities"
+    ],
+    "caseStudy": "We managed the hosting environment for a growing startup, ensuring their servers were monitored 24/7, databases were optimized, and email systems were configured and maintained, resulting in zero downtime and enhanced performance.",
+    "officialDocs": "https://www.cpanel.net/,https://www.mysql.com/"
+  },
+  {
+    "id": "maintenance",
+    "name": "Maintenance",
+    "description": "Ongoing support and maintenance for your applications.",
+    "image": "/services/maintenance.gif",
+    "tasks": ["Bug fixes", "Performance monitoring", "Updates and patches"],
+    "cost": "Starting at 10,000frs/month",
+    "detailedDescription": "Our Maintenance service provides ongoing support and maintenance for your applications. We handle bug fixes, performance monitoring, and regular updates and patches to keep your applications running smoothly.",
+    "processes": [
+      "Regular performance monitoring",
+      "Bug tracking and fixing",
+      "Application updates and patches",
+      "Security monitoring and updates",
+      "User support and issue resolution",
+      "Documentation of maintenance activities"
+    ],
+    "caseStudy": "We provide ongoing maintenance for a SaaS company, handling regular updates, monitoring performance, and fixing bugs. Our maintenance service has ensured high uptime and user satisfaction, allowing the company to focus on growth.",
+    "officialDocs": "https://www.redhat.com/en/services/support"
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "description": "Comprehensive security solutions to protect your applications.",
+    "image": "/services/security.gif",
+    "tasks": [
+      "Vulnerability assessment",
+      "Penetration testing",
+      "Security hardening"
+    ],
+    "cost": "Starting at 100,000frs",
+    "detailedDescription": "Our Security service offers comprehensive solutions to protect your applications. We conduct vulnerability assessments, penetration testing, and security hardening to safeguard your systems against threats.",
+    "processes": [
+      "Initial security assessment",
+      "Vulnerability scanning and analysis",
+      "Penetration testing",
+      "Implementation of security hardening measures",
+      "Ongoing security monitoring",
+      "Incident response and mitigation",
+      "Documentation of security activities"
+    ],
+    "caseStudy": "We provided security services for a financial institution, conducting thorough vulnerability assessments and penetration testing. Our efforts identified and mitigated critical security risks, enhancing the institution's overall security posture.",
+    "officialDocs": "https://owasp.org/,https://www.sans.org/"
+  },
+  {
+    "id": "upgrade-troubleshooting",
+    "name": "Upgrade and Troubleshooting",
+    "description": "Upgrading existing systems and resolving technical issues.",
+    "image": "/services/upgrade.gif",
+    "tasks": ["Version upgrades", "Compatibility fixes", "Performance tuning"],
+    "cost": "Starting at 6,000frs/hour",
+    "detailedDescription": "Our Upgrade and Troubleshooting service focuses on upgrading existing systems and resolving technical issues to ensure optimal performance and compatibility. We handle version upgrades, compatibility fixes, and performance tuning.",
+    "processes": [
+      "Assessment of system upgrade needs",
+      "Planning and scheduling of upgrades",
+      "Execution of version upgrades",
+      "Identification and resolution of compatibility issues",
+      "Performance tuning and optimization",
+      "Testing and validation of upgraded systems",
+      "Documentation of upgrade and troubleshooting activities"
+    ],
+    "caseStudy": "We upgraded the software systems for a financial services company, resolving compatibility issues and optimizing performance. Our services ensured a seamless transition with minimal downtime and improved system efficiency.",
+    "officialDocs": "https://www.redhat.com/en/services/consulting/system-upgrade"
+  },
+  {
+    "id": "hosting-migration",
+    "name": "Hosting Solution Migration",
+    "description": "Seamless migration of applications between hosting environments.",
+    "image": "/services/migration.gif",
+    "tasks": ["Data migration", "DNS reconfiguration", "Downtime minimization"],
+    "cost": "Starting at 60,000frs",
+    "detailedDescription": "Our Hosting Solution Migration service ensures the seamless migration of your applications between hosting environments. We handle data migration, DNS reconfiguration, and work to minimize downtime.",
+    "processes": [
+      "Assessment of migration needs",
+      "Planning and scheduling of migration",
+      "Data backup and preparation",
+      "Execution of data migration",
+      "DNS reconfiguration and testing",
+      "Monitoring and minimizing downtime",
+      "Documentation of migration activities"
+    ],
+    "caseStudy": "We migrated a large e-commerce platform to a new hosting environment, ensuring data integrity, DNS reconfiguration, and minimal downtime. The migration was completed successfully, with no impact on business operations.",
+    "officialDocs": "https://www.akamai.com/,https://www.cloudflare.com/"
+  },
+  {
+    "id": "database-administration",
+    "name": "Database Administration",
+    "description": "Management and optimization of database systems.",
+    "image": "/services/database.gif",
+    "tasks": ["Performance tuning", "Backup strategy", "Security hardening"],
+    "cost": "Starting at 60,000frs",
+    "detailedDescription": "Our Database Administration service includes comprehensive management and optimization of your database systems. We focus on performance tuning, backup strategy, and security hardening to ensure your data is secure and accessible.",
+    "processes": [
+      "Assessment of database needs",
+      "Implementation of performance tuning techniques",
+      "Development of a robust backup strategy",
+      "Security hardening and monitoring",
+      "Regular maintenance and optimization",
+      "Incident response and recovery",
+      "Documentation of administration activities"
+    ],
+    "caseStudy": "We managed the database systems for a logistics company, implementing performance tuning, a robust backup strategy, and security measures. Our services resulted in improved database performance and enhanced data security.",
+    "officialDocs": "https://www.oracle.com/database/,https://www.mongodb.com/"
+  }
+]

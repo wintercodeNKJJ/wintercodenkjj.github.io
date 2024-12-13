@@ -1,0 +1,410 @@
+[
+  {
+    "id": "saga-africa",
+    "name": "Saga-Africa",
+    "description": "A restaurant website that allows clients to reserve tables, place orders for pickup and delivery, and explore a rich menu of dishes. The website is synchronized with an API developed using ZELTY.fr as the data provider and MySQL for essential business logic data. Hosted on a VPS, the website is deployed with Docker containers and CI/CD pipelines via GitLab. Monitoring and maintenance are handled using Grafana. The backend is developed with Express.js and the ORM is Sequelize.",
+    "github": "https://github.com/yourusername/EatOrbit",
+    "live": "https://eatorbittest.com",
+    "image": "/projects/saga-africa/overview.mp4",
+    "skills": [
+      "Next.js",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Docker",
+      "GitLab CI/CD",
+      "Grafana"
+    ],
+    "sdlc": [
+      {
+        "phase": "Planning",
+        "description": "Identified the need for a comprehensive restaurant website and defined project scope.",
+        "image": "/projects/saga-africa/planning.jpeg"
+      },
+      {
+        "phase": "Analysis",
+        "description": "Gathered requirements from restaurant owners and customers.",
+        "image": "/projects/saga-africa/analysis.jpeg"
+      },
+      {
+        "phase": "Design",
+        "description": "Created wireframes and database schema for the application.",
+        "image": "/projects/saga-africa/design.jpeg"
+      },
+      {
+        "phase": "Implementation",
+        "description": "Developed the front-end with React and back-end with Node.js and Express.",
+        "image": "/projects/saga-africa/implementation.jpeg"
+      },
+      {
+        "phase": "Testing",
+        "description": "Conducted unit tests, integration tests, and user acceptance testing.",
+        "image": "/projects/saga-africa/testing.jpeg"
+      },
+      {
+        "phase": "Deployment",
+        "description": "Deployed the application to a VPS and set up CI/CD pipelines with GitLab.",
+        "image": "/projects/saga-africa/deployment.jpeg"
+      },
+      {
+        "phase": "Maintenance",
+        "description": "Continuously monitored the application using Grafana and released updates based on user feedback.",
+        "image": "/projects/saga-africa/maintenance.jpeg"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Jason Adiogo",
+        "role": "Frontend Developer",
+        "description": "Specializes in creating responsive and intuitive user interfaces using React and modern CSS frameworks.",
+        "email": "alice.johnson@example.com",
+        "image": "/colaborators/jason.jpeg",
+        "socialLinks": {
+          "linkedin": "https://www.linkedin.com/in/jason-adiogo",
+          "github": "https://github.com/alicejohnson"
+        },
+        "collaboratedProjects": [
+          "Saga-africa",
+          "Carino Bistort",
+          "Carino Pizzeria",
+          "Cotraf",
+          "67design and build",
+          "KrestHolding"
+        ],
+        "startDate": "2024-03-01",
+        "portfolio": "https://hansjason97.github.io/Hanspen/"
+      }
+    ]
+  },
+  {
+    "id": "bistrot",
+    "name": "Bistrot",
+    "description": "A restaurant website similar to Saga-Africa but centered around Italian dishes. It allows clients to reserve tables, place orders for pickup and delivery, and explore a rich menu of Italian cuisine. The website is synchronized with an API developed using ZELTY.fr as the data provider and MySQL for essential business logic data. Hosted on a VPS, the website is deployed with Docker containers and CI/CD pipelines via GitLab. Monitoring and maintenance are handled using Grafana. The backend is developed with Express.js and the ORM is Sequelize.",
+    "github": "https://github.com/yourusername/EatOrbit",
+    "live": "https://eatorbittest.com",
+    "image": "/projects/bistrot/overview.mp4",
+    "skills": [
+      "Next.js",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Docker",
+      "GitLab CI/CD",
+      "Grafana"
+    ],
+    "sdlc": [
+      {
+        "phase": "Planning",
+        "description": "Identified the need for a comprehensive restaurant website centered around Italian cuisine and defined project scope.",
+        "image": "/projects/bistrot/planning.jpeg"
+      },
+      {
+        "phase": "Analysis",
+        "description": "Gathered requirements from restaurant owners and customers.",
+        "image": "/projects/bistrot/analysis.jpeg"
+      },
+      {
+        "phase": "Design",
+        "description": "Created wireframes and database schema for the application.",
+        "image": "/projects/bistrot/design.jpeg"
+      },
+      {
+        "phase": "Implementation",
+        "description": "Developed the front-end with React and back-end with Node.js and Express.",
+        "image": "/projects/bistrot/implementation.jpeg"
+      },
+      {
+        "phase": "Testing",
+        "description": "Conducted unit tests, integration tests, and user acceptance testing.",
+        "image": "/projects/bistrot/testing.jpeg"
+      },
+      {
+        "phase": "Deployment",
+        "description": "Deployed the application to a VPS and set up CI/CD pipelines with GitLab.",
+        "image": "/projects/bistrot/deployment.jpeg"
+      },
+      {
+        "phase": "Maintenance",
+        "description": "Continuously monitored the application using Grafana and released updates based on user feedback.",
+        "image": "/projects/bistrot/maintenance.jpeg"
+      }
+    ],
+    "collaborators": []
+  },
+  {
+    "id": "krestholding",
+    "name": "Krestholding",
+    "description": "A company presentation website for Krestholding, the head company in the Krestholding group. The website serves as a showcase for the company's services and projects, providing detailed information about the company's mission, vision, and values.",
+    "github": "https://github.com/yourusername/EatOrbit",
+    "live": "https://eatorbittest.com",
+    "image": "/projects/krestholding/overview.mp4",
+    "skills": [
+      "Next.js",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Docker",
+      "GitLab CI/CD",
+      "Grafana"
+    ],
+    "sdlc": [
+      {
+        "phase": "Planning",
+        "description": "Identified the need for a company presentation website and defined project scope.",
+        "image": "/projects/krestholding/planning.jpeg"
+      },
+      {
+        "phase": "Analysis",
+        "description": "Gathered requirements from company stakeholders.",
+        "image": "/projects/krestholding/analysis.jpeg"
+      },
+      {
+        "phase": "Design",
+        "description": "Created wireframes and database schema for the application.",
+        "image": "/projects/krestholding/design.jpeg"
+      },
+      {
+        "phase": "Implementation",
+        "description": "Developed the front-end with HTML, CSS, and JavaScript, and back-end with Node.js and Express.",
+        "image": "/projects/krestholding/implementation.jpeg"
+      },
+      {
+        "phase": "Testing",
+        "description": "Conducted unit tests, integration tests, and user acceptance testing.",
+        "image": "/projects/krestholding/testing.jpeg"
+      },
+      {
+        "phase": "Deployment",
+        "description": "Deployed the application to a cloud platform and set up CI/CD pipelines.",
+        "image": "/projects/krestholding/deployment.jpeg"
+      },
+      {
+        "phase": "Maintenance",
+        "description": "Continuously monitored the application and released updates based on user feedback.",
+        "image": "/projects/krestholding/maintenance.jpeg"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Jason Adiogo",
+        "role": "Frontend Developer",
+        "description": "Specializes in creating responsive and intuitive user interfaces using React and modern CSS frameworks.",
+        "email": "alice.johnson@example.com",
+        "image": "/colaborators/jason.jpeg",
+        "socialLinks": {
+          "linkedin": "https://www.linkedin.com/in/jason-adiogo",
+          "github": "https://github.com/alicejohnson"
+        },
+        "collaboratedProjects": [
+          "Saga-africa",
+          "Carino Bistort",
+          "Carino Pizzeria",
+          "Cotraf",
+          "67design and build",
+          "KrestHolding"
+        ],
+        "startDate": "2024-03-01",
+        "portfolio": "https://hansjason97.github.io/Hanspen/"
+      }
+    ]
+  },
+  {
+    "id": "cotraf",
+    "name": "Cotraf",
+    "description": "A construction material transport agency that collaborates with Cimencam and various other individuals. This static website showcases the company's services and information. Developed with Next.js and hosted using Hostinger, the project followed all steps of the SDLC to create a polished final product.",
+    "github": "https://github.com/yourusername/EatOrbit",
+    "live": "https://eatorbittest.com",
+    "image": "/projects/cotraf/overview.mp4",
+    "skills": ["Next.js", "GitLab CI/CD"],
+    "sdlc": [
+      {
+        "phase": "Planning",
+        "description": "Identified the need for an online presence to showcase services and defined the project scope.",
+        "image": "/projects/cotraf/planning.jpeg"
+      },
+      {
+        "phase": "Analysis",
+        "description": "Gathered requirements from company stakeholders.",
+        "image": "/projects/cotraf/analysis.jpeg"
+      },
+      {
+        "phase": "Design",
+        "description": "Created wireframes and design layouts for the website.",
+        "image": "/projects/cotraf/design.jpeg"
+      },
+      {
+        "phase": "Implementation",
+        "description": "Developed the static website using Next.js.",
+        "image": "/projects/cotraf/implementation.jpeg"
+      },
+      {
+        "phase": "Testing",
+        "description": "Conducted unit tests, integration tests, and user acceptance testing.",
+        "image": "/projects/cotraf/testing.jpeg"
+      },
+      {
+        "phase": "Deployment",
+        "description": "Deployed the website using Hostinger.",
+        "image": "/projects/cotraf/deployment.jpeg"
+      },
+      {
+        "phase": "Maintenance",
+        "description": "Continuously monitored the website and released updates based on user feedback.",
+        "image": "/projects/cotraf/maintenance.jpeg"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Jason Adiogo",
+        "role": "Frontend Developer",
+        "description": "Specializes in creating responsive and intuitive user interfaces using React and modern CSS frameworks.",
+        "email": "alice.johnson@example.com",
+        "image": "/colaborators/jason.jpeg",
+        "socialLinks": {
+          "linkedin": "https://www.linkedin.com/in/jason-adiogo",
+          "github": "https://github.com/alicejohnson"
+        },
+        "collaboratedProjects": [
+          "Saga-africa",
+          "Carino Bistort",
+          "Carino Pizzeria",
+          "Cotraf",
+          "67design and build",
+          "KrestHolding"
+        ],
+        "startDate": "2024-03-01",
+        "portfolio": "https://hansjason97.github.io/Hanspen/"
+      }
+    ]
+  },
+  {
+    "id": "africasystem",
+    "name": "Africasystem",
+    "description": "An IT company primarily working with Eneo, handling car tracking as their main activity. This website showcases the company's activities and services. It was built with React.js and Sanity.io.",
+    "github": "https://github.com/yourusername/EatOrbit",
+    "live": "https://eatorbittest.com",
+    "image": "/projects/africasystem/overview.mp4",
+    "skills": ["React", "Sanity.io", "JavaScript", "HTML", "CSS"],
+    "sdlc": [
+      {
+        "phase": "Planning",
+        "description": "Identified the need for a comprehensive online presence to showcase services and defined the project scope.",
+        "image": "/projects/africasystem/planning.jpeg"
+      },
+      {
+        "phase": "Analysis",
+        "description": "Gathered requirements from company stakeholders.",
+        "image": "/projects/africasystem/analysis.jpeg"
+      },
+      {
+        "phase": "Design",
+        "description": "Created wireframes and design layouts for the website.",
+        "image": "/projects/africasystem/design.jpeg"
+      },
+      {
+        "phase": "Implementation",
+        "description": "Developed the website using React.js and Sanity.io.",
+        "image": "/projects/africasystem/implementation.jpeg"
+      },
+      {
+        "phase": "Testing",
+        "description": "Conducted unit tests, integration tests, and user acceptance testing.",
+        "image": "/projects/africasystem/testing.jpeg"
+      },
+      {
+        "phase": "Deployment",
+        "description": "Deployed the website to the cloud.",
+        "image": "/projects/africasystem/deployment.jpeg"
+      },
+      {
+        "phase": "Maintenance",
+        "description": "Continuously monitored the website and released updates based on user feedback.",
+        "image": "/projects/africasystem/maintenance.jpeg"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Paved Ngoune",
+        "role": "Fullstack developer",
+        "description": "Full stack developer at Africa systems, responsible for the design, development and deployment of softwares",
+        "email": "pavedngoune@gmail.com",
+        "image": "/colaborators/paved.jpeg",
+        "socialLinks": {
+          "linkedin": "https://www.linkedin.com/in/paved-ngoune-935401228",
+          "twitter": "https://twitter.com/bobsmith"
+        },
+        "collaboratedProjects": ["Africa System"],
+        "startDate": "2019-06-01"
+      }
+    ]
+  },
+  {
+    "id": "krestdev",
+    "name": "Krestdev",
+    "description": "The landing page for my department where I currently work, offering a variety of services.",
+    "github": "https://github.com/yourusername/EatOrbit",
+    "live": "https://eatorbittest.com",
+    "image": "/projects/krestdev/overview.mp4",
+    "skills": ["Next.js", "GitLab CI/CD"],
+    "sdlc": [
+      {
+        "phase": "Planning",
+        "description": "Identified the need for an online presence to showcase the department's services and defined the project scope.",
+        "image": "/projects/krestdev/planning.jpeg"
+      },
+      {
+        "phase": "Analysis",
+        "description": "Gathered requirements from department stakeholders.",
+        "image": "/projects/krestdev/analysis.jpeg"
+      },
+      {
+        "phase": "Design",
+        "description": "Created wireframes and design layouts for the website.",
+        "image": "/projects/krestdev/design.jpeg"
+      },
+      {
+        "phase": "Implementation",
+        "description": "Developed the landing page using HTML, CSS, and JavaScript.",
+        "image": "/projects/krestdev/implementation.jpeg"
+      },
+      {
+        "phase": "Testing",
+        "description": "Conducted unit tests, integration tests, and user acceptance testing.",
+        "image": "/projects/krestdev/testing.jpeg"
+      },
+      {
+        "phase": "Deployment",
+        "description": "Deployed the landing page to the cloud.",
+        "image": "/projects/krestdev/deployment.jpeg"
+      },
+      {
+        "phase": "Maintenance",
+        "description": "Continuously monitored the landing page and released updates based on user feedback.",
+        "image": "/projects/krestdev/maintenance.jpeg"
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Jason Adiogo",
+        "role": "Frontend Developer",
+        "description": "Specializes in creating responsive and intuitive user interfaces using React and modern CSS frameworks.",
+        "email": "alice.johnson@example.com",
+        "image": "/colaborators/jason.jpeg",
+        "socialLinks": {
+          "linkedin": "https://www.linkedin.com/in/jason-adiogo",
+          "github": "https://github.com/alicejohnson"
+        },
+        "collaboratedProjects": [
+          "Saga-africa",
+          "Carino Bistort",
+          "Carino Pizzeria",
+          "Cotraf",
+          "67design and build",
+          "KrestHolding"
+        ],
+        "startDate": "2024-03-01",
+        "portfolio": "https://hansjason97.github.io/Hanspen/"
+      }
+    ]
+  }
+]

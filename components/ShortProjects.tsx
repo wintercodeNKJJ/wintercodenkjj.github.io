@@ -16,7 +16,7 @@ export default function ShortProjects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    fetch("/data/projects.json")
+    fetch("data/projects.json")
       .then((response) => response.json())
       .then((data) => {
         const shortProjects = data.slice(0, 5).map((project: Project) => ({

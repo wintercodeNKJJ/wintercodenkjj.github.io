@@ -33,7 +33,7 @@ export default function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    fetch("/data/projects.json")
+    fetch("data/projects.json")
       .then((response) => response.json())
       .then((data) => setProjects(data));
   }, []);

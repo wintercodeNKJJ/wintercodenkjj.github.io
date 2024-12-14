@@ -22,7 +22,7 @@ export default function PageContent({ id }: { id: string }) {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("/data/services.json");
+      const response = await fetch("data/services.json");
       const data = await response.json();
       const foundService = data.find((s: Service) => s.id === id);
       setService(foundService || null);

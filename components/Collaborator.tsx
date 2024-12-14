@@ -51,7 +51,7 @@ export default function Collaborator({
       onMouseLeave={() => setIsHovered(false)}
     >
       <motion.div
-        className="bg-gray-800 p-3 rounded-lg shadow-lg flex items-center space-x-3"
+        className="bg-secondary p-3 rounded-lg shadow-lg flex items-center space-x-3"
         whileHover={{ scale: 1.05 }}
       >
         <Image
@@ -73,7 +73,7 @@ export default function Collaborator({
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 10 }}
-            className="absolute z-50 bg-gray-900 p-4 rounded-lg shadow-xl w-64 left-0 mt-2"
+            className="absolute z-50 bg-background p-4 rounded-lg shadow-xl w-64 left-0 mt-2"
           >
             <Image
               src={image}

@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-background text-white py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-wrap justify-between items-start">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
@@ -58,7 +58,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/3">
+          <div className="w-full md:w-1/3 contact">
             <h3 className="text-lg font-semibold mb-4">Connect With Me</h3>
             <div className="flex space-x-4">
               <a

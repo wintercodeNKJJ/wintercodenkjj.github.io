@@ -27,7 +27,7 @@ export default function ShortServices() {
   }, []);
 
   return (
-    <section className="py-20 bg-gray-900">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <h1 className="text-4xl font-bold mb-12 text-center">My Services</h1>
         <p className="text-xl text-center mb-12">First project is free!</p>
@@ -38,7 +38,7 @@ export default function ShortServices() {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-gray-800 rounded-lg overflow-hidden shadow-lg"
+              className="bg-secondary rounded-lg overflow-hidden shadow-lg"
             >
               <Image
                 src={service.image}

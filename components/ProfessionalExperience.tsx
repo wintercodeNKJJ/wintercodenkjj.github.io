@@ -6,7 +6,7 @@ import Collaborator from "./Collaborator";
 const experiences = [
   {
     company: "KRESTDEV",
-    logo: "expirience/krestdev_logo.jpeg",
+    logo: "/expirience/krestdev_logo.jpeg",
     position: "Backend and DevOps Developer",
     period: "May 2024 - Present",
     description:
@@ -46,7 +46,7 @@ const experiences = [
   },
   {
     company: "FreeLance",
-    logo: "expirience/freelance.png",
+    logo: "/expirience/freelance.png",
     position: "Full Stack Engineer",
     period: "January 2023 - August 2024",
     description:
@@ -63,7 +63,7 @@ const experiences = [
   },
   {
     company: "Vortex Gaming",
-    logo: "expirience/vortex gaming.jpeg",
+    logo: "/expirience/vortex gaming.jpeg",
     position: "Freelance Developer",
     period: "June 2022 - January 2024",
     description:
@@ -95,7 +95,7 @@ const experiences = [
   },
   {
     company: "Freelance",
-    logo: "expirience/freelance.png",
+    logo: "/expirience/freelance.png",
     position: "Full-stack Developer",
     period: "October 2021 - June 2023",
     description:
@@ -120,7 +120,7 @@ const experiences = [
 
 export default function ProfessionalExperience() {
   return (
-    <section className="py-20 bg-gray-800">
+    <section className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -136,7 +136,7 @@ export default function ProfessionalExperience() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="mb-16 bg-gray-700 rounded-lg p-6 shadow-lg"
+            className="mb-16 bg-background rounded-lg p-6 shadow-lg"
           >
             <div className="flex items-center mb-4">
               <Image

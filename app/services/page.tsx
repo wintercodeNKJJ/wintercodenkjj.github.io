@@ -27,7 +27,7 @@ export default function ServicesPage() {
   }, []);
 
   return (
-    <main className="min-h-screen pt-20 bg-gray-900">
+    <main className="min-h-screen pt-20 bg-background">
       <section className="py-20">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold mb-12 text-center">My Services</h1>
@@ -39,7 +39,7 @@ export default function ServicesPage() {
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="bg-gray-800 rounded-lg overflow-hidden shadow-lg"
+                className="bg-secondary rounded-lg overflow-hidden shadow-lg"
               >
                 <Image
                   src={service.image}

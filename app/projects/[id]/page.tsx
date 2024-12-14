@@ -6,10 +6,6 @@ import fs from "fs";
 import path from "path";
 
 export async function generateStaticParams() {
-  // const projects = await fetch("/data/projects.json").then((res) => {
-  //   return res.json();
-  // });
-
   const filePath = path.join(process.cwd(), "public", "data", "projects.json");
   const jsonData = fs.readFileSync(filePath, "utf-8");
   const projects = JSON.parse(jsonData);

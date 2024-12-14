@@ -39,7 +39,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <section id="projects" className="py-20 bg-gray-900">
+    <section id="projects" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -56,7 +56,7 @@ export default function Projects() {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-gray-800 rounded-lg overflow-hidden shadow-lg"
+              className="bg-secondary rounded-lg overflow-hidden shadow-lg"
             >
               <Image
                 src={project.image}

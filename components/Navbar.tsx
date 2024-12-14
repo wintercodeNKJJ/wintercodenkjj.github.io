@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -57,7 +58,13 @@ export default function Navbar() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold">
-            JK
+            <Image
+              src="Sitelogo.png"
+              alt="Logo"
+              width={50}
+              height={50}
+              className="rounded-full"
+            />
           </Link>
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (

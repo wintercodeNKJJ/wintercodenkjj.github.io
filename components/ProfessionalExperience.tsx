@@ -6,7 +6,7 @@ import Collaborator from "./Collaborator";
 const experiences = [
   {
     company: "KRESTDEV",
-    logo: "/expirience/krestdev_logo.jpeg",
+    logo: "expirience/krestdev_logo.jpeg",
     position: "Backend and DevOps Developer",
     period: "May 2024 - Present",
     description:
@@ -26,7 +26,7 @@ const experiences = [
         description:
           "Specializes in creating responsive and intuitive user interfaces using React and modern CSS frameworks.",
         email: "alice.johnson@example.com",
-        image: "/colaborators/jason.jpeg",
+        image: "colaborators/jason.jpeg",
         socialLinks: {
           linkedin: "https://www.linkedin.com/in/jason-adiogo",
           github: "https://github.com/alicejohnson",
@@ -46,7 +46,7 @@ const experiences = [
   },
   {
     company: "FreeLance",
-    logo: "/expirience/freelance.png",
+    logo: "expirience/freelance.png",
     position: "Full Stack Engineer",
     period: "January 2023 - August 2024",
     description:
@@ -63,7 +63,7 @@ const experiences = [
   },
   {
     company: "Vortex Gaming",
-    logo: "/expirience/vortex gaming.jpeg",
+    logo: "expirience/vortex gaming.jpeg",
     position: "Freelance Developer",
     period: "June 2022 - January 2024",
     description:
@@ -83,7 +83,7 @@ const experiences = [
         description:
           "Full stack developer at Africa systems, responsible for the design, development and deployment of softwares",
         email: "pavedngoune@gmail.com",
-        image: "/colaborators/paved.jpeg",
+        image: "colaborators/paved.jpeg",
         socialLinks: {
           linkedin: "https://www.linkedin.com/in/paved-ngoune-935401228",
           twitter: "https://twitter.com/bobsmith",
@@ -95,7 +95,7 @@ const experiences = [
   },
   {
     company: "Freelance",
-    logo: "/expirience/freelance.png",
+    logo: "expirience/freelance.png",
     position: "Full-stack Developer",
     period: "October 2021 - June 2023",
     description:

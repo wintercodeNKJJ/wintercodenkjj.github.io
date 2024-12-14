@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-between items-start">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <Image
-              src="/placeholder.svg"
+              src="placeholder.svg"
               alt="Logo"
               width={50}
               height={50}

@@ -17,7 +17,7 @@ const achievements: Achievement[] = [
     title: "Masters Degree in Computer Science (AI)",
     description:
       "Started pursuing a Masters degree in Computer Science with a focus on Artificial Intelligence at Université De Dschang.",
-    logo: "expirience/uds dschang logo.jpeg",
+    logo: "/expirience/uds dschang logo.jpeg",
     link: "https://www.univ-dschang.org/",
   },
   {
@@ -25,7 +25,7 @@ const achievements: Achievement[] = [
     title: "Full Stack Developer at KRESTDEV",
     description:
       "Joined KRESTDEV as a Backend and DevOps Developer, working on scalable software solutions.",
-    logo: "expirience/krestdev_logo.jpeg",
+    logo: "/expirience/krestdev_logo.jpeg",
     link: "https://krestdev.com/",
   },
   {
@@ -33,14 +33,14 @@ const achievements: Achievement[] = [
     title: "Freelance Developer for Vortex Gaming",
     description:
       "Created a platform for advertising games, challenges, tournaments, and services.",
-    logo: "expirience/vortex gaming.jpeg",
+    logo: "/expirience/vortex gaming.jpeg",
     link: "https://maps.app.goo.gl/KZmqXTQbGWCvfMTX8",
   },
   {
     date: "2021",
     title: "Started Bachelors Degree in Computer Science",
     description: "Began studying Computer Science at Université De Dschang.",
-    logo: "expirience/uds dschang logo.jpeg",
+    logo: "/expirience/uds dschang logo.jpeg",
     link: "https://www.univ-dschang.org/",
   },
   {
@@ -48,7 +48,7 @@ const achievements: Achievement[] = [
     title: "German Language Certification",
     description:
       "Obtained Zertificat B2 in German Language and Literature from Goethe Institut Kamerun.",
-    logo: "expirience/goethe logo.jpeg",
+    logo: "/expirience/goethe logo.jpeg",
     link: "https://www.goethe.de/ins/cm/en/index.html",
   },
   {
@@ -56,7 +56,7 @@ const achievements: Achievement[] = [
     title: "Started Learning Programming",
     description:
       "Began self-study in programming, focusing on web development technologies.",
-    logo: "expirience/free code camp.jpeg",
+    logo: "/expirience/free code camp.jpeg",
     link: "https://www.freecodecamp.org/",
   },
 ];

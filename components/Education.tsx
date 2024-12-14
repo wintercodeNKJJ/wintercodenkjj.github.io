@@ -5,7 +5,7 @@ import Image from "next/image";
 const education = [
   {
     institution: "Université De Dschang",
-    logo: "expirience/uds dschang logo.jpeg",
+    logo: "/expirience/uds dschang logo.jpeg",
     degree: "Master's degree in Computer Science (Artificial Intelligence)",
     period: "October 2023 - Present",
     description:
@@ -13,7 +13,7 @@ const education = [
   },
   {
     institution: "Université De Dschang",
-    logo: "expirience/uds dschang logo.jpeg",
+    logo: "/expirience/uds dschang logo.jpeg",
     degree: "Bachelor's degree in Computer Science",
     period: "October 2020 - July 2023",
     description:
@@ -21,7 +21,7 @@ const education = [
   },
   {
     institution: "Goethe Institut Kamerun",
-    logo: "expirience/goethe logo.jpeg",
+    logo: "/expirience/goethe logo.jpeg",
     degree: "Zertificat B2 in German Language and Literature",
     period: "September 2018 - 2020",
     description:

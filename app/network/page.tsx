@@ -10,7 +10,7 @@ const collaborators = [
     description:
       "Specializes in creating responsive and intuitive user interfaces using React and modern CSS frameworks.",
     email: "alice.johnson@example.com",
-    image: "colaborators/jason.jpeg",
+    image: "/colaborators/jason.jpeg",
     socialLinks: {
       linkedin: "https://www.linkedin.com/in/jason-adiogo",
       github: "https://github.com/alicejohnson",
@@ -25,7 +25,7 @@ const collaborators = [
     description:
       "Full stack developer at Africa systems, responsible for the design, development and deployment of softwares",
     email: "pavedngoune@gmail.com",
-    image: "colaborators/paved.jpeg",
+    image: "/colaborators/paved.jpeg",
     socialLinks: {
       linkedin: "https://www.linkedin.com/in/paved-ngoune-935401228",
       twitter: "https://twitter.com/bobsmith",

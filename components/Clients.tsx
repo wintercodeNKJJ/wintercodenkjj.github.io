@@ -6,7 +6,7 @@ import Link from "next/link";
 const clients = [
   {
     name: "Cotraf",
-    logo: "placeholder.svg",
+    logo: "/placeholder.svg",
     description:
       "A construction material transport agency that collaborates with Cimencam and various other individuals.",
     projectsCompleted: 1,
@@ -14,7 +14,7 @@ const clients = [
   },
   {
     name: "Saga-africa",
-    logo: "clients/LogoSagAfrica.png",
+    logo: "/clients/LogoSagAfrica.png",
     description:
       "A restaurant website that allows clients to reserve tables, place orders for pickup and delivery, and explore a rich menu of dishes.",
     projectsCompleted: 2,
@@ -22,7 +22,7 @@ const clients = [
   },
   {
     name: "Carino Bistrot",
-    logo: "clients/leCarino.svg",
+    logo: "/clients/leCarino.svg",
     description:
       "A restaurant website similar to Saga-Africa but centered around Italian dishes. It allows clients to reserve tables, place orders for pickup and delivery, and explore a rich menu of Italian cuisine.",
     projectsCompleted: 1,

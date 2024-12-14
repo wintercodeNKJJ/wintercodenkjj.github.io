@@ -37,7 +37,7 @@ interface skillSetT {
 const skills = [
   {
     category: "Front-end",
-    image: "skillset/frontend.jpeg",
+    image: "/skillset/frontend.jpeg",
     description: "Building responsive and interactive user interfaces",
     items: [
       {
@@ -68,7 +68,7 @@ const skills = [
   },
   {
     category: "Back-end",
-    image: "skillset/backend.jpeg",
+    image: "/skillset/backend.jpeg",
     description: "Developing server-side logic and databases",
     items: [
       {
@@ -108,7 +108,7 @@ const skills = [
   },
   {
     category: "DevOps",
-    image: "skillset/devops.gif",
+    image: "/skillset/devops.gif",
     description: "Streamlining development and deployment processes",
     items: [
       {
@@ -138,7 +138,7 @@ const skills = [
   },
   {
     category: "Others",
-    image: "skillset/others.jpeg",
+    image: "/skillset/others.jpeg",
     description: "Additional technologies and tools in my skillset",
     items: [
       {

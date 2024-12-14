@@ -39,7 +39,7 @@ export default function Clients() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: index * 0.1 }}
-          className="bg-gray-800 rounded-lg p-6 shadow-lg"
+          className="bg-background rounded-lg p-6 shadow-lg"
         >
           <div className="flex items-center mb-4">
             <Image

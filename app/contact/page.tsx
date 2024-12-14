@@ -20,7 +20,7 @@ export default function Contact() {
   // const searchParams = useSearchParams();
   // const subject = searchParams.get("subject") || "";
   return (
-    <main className="min-h-screen pt-20 bg-gray-900">
+    <main className="min-h-screen pt-20 bg-secondary">
       <section className="py-20">
         <div className="container mx-auto px-6">
           <motion.h1

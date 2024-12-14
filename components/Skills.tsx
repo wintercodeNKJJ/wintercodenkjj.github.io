@@ -184,7 +184,7 @@ export default function Skills() {
   // const [selectedSkill, setSelectedSkill] = useState(null);
 
   return (
-    <section id="skills" className="py-20 bg-gray-800">
+    <section id="skills" className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -201,7 +201,7 @@ export default function Skills() {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-gray-700 p-6 rounded-lg shadow-lg cursor-pointer"
+              className="bg-background p-6 rounded-lg shadow-lg cursor-pointer"
               onClick={() => setSelectedCategory(skillSet)}
             >
               <Image
@@ -214,7 +214,7 @@ export default function Skills() {
               <h3 className="text-2xl font-semibold mb-4">
                 {skillSet.category}
               </h3>
-              <p className="text-gray-300 mb-4">{skillSet.description}</p>
+              <p className=" mb-4">{skillSet.description}</p>
               <ul className="space-y-2">
                 {skillSet.items.map((skill, skillIndex) => (
                   <li key={skillIndex} className="flex items-center">
@@ -229,7 +229,7 @@ export default function Skills() {
       </div>
       {selectedCategory && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
-          <div className="bg-gray-800 p-8 rounded-lg max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+          <div className="bg-secondary p-8 rounded-lg max-w-2xl w-full max-h-[80vh] overflow-y-auto">
             <h3 className="text-3xl font-bold mb-4">
               {selectedCategory.category}
             </h3>

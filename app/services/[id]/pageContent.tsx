@@ -22,7 +22,8 @@ export default function PageContent({ id }: { id: string }) {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("../data/services.json");
+      // const response = await fetch("../data/services.json");
+      const response = await fetch("data/services.json");
       const data = await response.json();
       const foundService = data.find((s: Service) => s.id === id);
       setService(foundService || null);
@@ -35,7 +36,7 @@ export default function PageContent({ id }: { id: string }) {
   }
 
   return (
-    <main className="min-h-screen pt-20 bg-gray-900">
+    <main className="min-h-screen pt-20 bg-background">
       <section className="py-20">
         <div className="container mx-auto px-6">
           <motion.h1

@@ -1,54 +1,57 @@
-'use client'
-import { motion } from 'framer-motion'
+"use client";
+import { motion } from "framer-motion";
 
 const experiences = [
   {
     company: "KRESTDEV",
     position: "Backend and DevOps Developer",
     period: "May 2024 - Present",
-    description: "Responsible for the conception, development, testing, and deployment of software solutions."
+    description:
+      "Responsible for the conception, development, testing, and deployment of software solutions.",
   },
   {
     company: "Independent",
     position: "Full Stack Engineer",
     period: "January 2023 - August 2024",
-    description: "Developed and maintained full-stack applications."
+    description: "Developed and maintained full-stack applications.",
   },
   {
     company: "Vortex Gaming",
     position: "Freelance Developer",
     period: "June 2022 - January 2024",
-    description: "Created a platform for advertising games, challenges, tournaments, and services."
+    description:
+      "Created a platform for advertising games, challenges, tournaments, and services.",
   },
   {
     company: "Self Employed",
     position: "Full-stack Developer",
     period: "October 2021 - June 2023",
-    description: "Worked on various web development projects during my Bachelor's degree."
-  }
-]
+    description:
+      "Worked on various web development projects during my Bachelor's degree.",
+  },
+];
 
 const education = [
   {
     institution: "Université De Dschang",
     degree: "Master's degree in Computer Science (Artificial Intelligence)",
-    period: "October 2023 - Present"
+    period: "October 2023 - Present",
   },
   {
     institution: "Université De Dschang",
     degree: "Bachelor's degree in Computer Science",
-    period: "October 2020 - July 2023"
+    period: "October 2020 - July 2023",
   },
   {
     institution: "Goethe Institut Kamerun",
     degree: "Zertificat B2 in German Language and Literature",
-    period: "September 2018 - 2020"
-  }
-]
+    period: "September 2018 - 2020",
+  },
+];
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 bg-gray-800">
+    <section id="experience" className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -74,7 +77,12 @@ export default function Experience() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg mb-8"
           >
-            Hello, I&apos;m Jordan Junior, a Full Stack Software Developer with a strong background in JavaScript technologies. I have extensive experience in both front-end and back-end development, and I&apos;m proficient in deploying applications using GitLab CI/CD, Kubernetes, and Docker. My journey in software development is driven by a passion for creating innovative and efficient digital solutions.
+            Hello, I&apos;m Jordan Junior, a Full Stack Software Developer with
+            a strong background in JavaScript technologies. I have extensive
+            experience in both front-end and back-end development, and I&apos;m
+            proficient in deploying applications using GitLab CI/CD, Kubernetes,
+            and Docker. My journey in software development is driven by a
+            passion for creating innovative and efficient digital solutions.
           </motion.p>
         </div>
 
@@ -94,7 +102,9 @@ export default function Experience() {
             className="list-disc list-inside text-lg mb-8 space-y-2"
           >
             <li>Languages: JavaScript, TypeScript, Python, PHP</li>
-            <li>Frameworks/Libraries: React.js, Next.js, Express.js, Laravel</li>
+            <li>
+              Frameworks/Libraries: React.js, Next.js, Express.js, Laravel
+            </li>
             <li>Databases: MySQL, MongoDB</li>
             <li>DevOps: Docker, Kubernetes, GitLab CI/CD</li>
             <li>Tools: Graphana, Packet Tracer</li>
@@ -151,6 +161,5 @@ export default function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

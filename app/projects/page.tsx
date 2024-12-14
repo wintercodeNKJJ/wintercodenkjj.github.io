@@ -36,7 +36,7 @@ export default function ProjectsPage() {
   }, []);
 
   return (
-    <main className="min-h-screen pt-20 bg-gray-900">
+    <main className="min-h-screen pt-20 bg-background">
       <section className="py-20">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold mb-12 text-center">All Projects</h1>
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
             {projects.map((project) => (
               <div
                 key={project.id}
-                className="bg-gray-800 rounded-lg overflow-hidden shadow-lg"
+                className="bg-secondary rounded-lg overflow-hidden shadow-lg"
               >
                 <video
                   src={project.image}

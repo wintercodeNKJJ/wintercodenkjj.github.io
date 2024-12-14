@@ -138,7 +138,7 @@ const skills = [
 
 export default function FullSkillSet() {
   return (
-    <section className="py-20 bg-gray-900">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -155,7 +155,7 @@ export default function FullSkillSet() {
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-gray-800 p-6 rounded-lg shadow-lg"
+              className="bg-secondary p-6 rounded-lg shadow-lg"
             >
               <div className="flex items-center mb-4">
                 <skill.logo className="text-4xl text-blue-400 mr-4" />

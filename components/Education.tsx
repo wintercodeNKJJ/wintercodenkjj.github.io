@@ -31,7 +31,7 @@ const education = [
 
 export default function Education() {
   return (
-    <section className="py-20 bg-gray-800">
+    <section className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -47,7 +47,7 @@ export default function Education() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="mb-8 bg-gray-700 rounded-lg p-6 shadow-lg"
+            className="mb-8 bg-background rounded-lg p-6 shadow-lg"
           >
             <div className="flex items-center mb-4">
               <Image

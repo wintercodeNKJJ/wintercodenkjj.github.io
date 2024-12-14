@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function ShortAbout() {
   return (
-    <section className="py-20 bg-gray-800">
+    <section className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}

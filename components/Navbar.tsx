@@ -52,14 +52,14 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 120, damping: 20 }}
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-gray-900 shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-background shadow-lg" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold">
             <Image
-              src="Sitelogo.png"
+              src="/Sitelogo.png"
               alt="Logo"
               width={50}
               height={50}
@@ -86,7 +86,7 @@ export default function Navbar() {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-blue-400 transition-colors"
+                className=" hover:text-blue-400 transition-colors"
               >
                 <link.icon className="text-2xl" />
               </a>
@@ -97,7 +97,7 @@ export default function Navbar() {
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <svg
-              className="w-6 h-6"
+              className="w-6 h-6 text-primary"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -113,7 +113,7 @@ export default function Navbar() {
           </button>
         </div>
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-gray-900 p-4">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-background p-4">
             {navItems.map((item) => (
               <Link
                 key={item.name}

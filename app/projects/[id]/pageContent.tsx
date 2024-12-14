@@ -25,7 +25,8 @@ export default function ProjectPage({ id }: { id: string }) {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("../data/projects.json");
+      // const response = await fetch("../data/projects.json");
+      const response = await fetch("data/projects.json");
       const data = await response.json();
       const foundProject = data.find((p: Project) => p.id === id);
       setProject(foundProject || null);
@@ -38,7 +39,7 @@ export default function ProjectPage({ id }: { id: string }) {
   }
 
   return (
-    <main className="min-h-screen pt-20 bg-gray-900">
+    <main className="min-h-screen pt-20 bg-background">
       <section className="py-20">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold mb-8 text-center">
@@ -74,7 +75,7 @@ export default function ProjectPage({ id }: { id: string }) {
             {project.sdlc.map((phase, index) => (
               <div
                 key={index}
-                className="flex flex-col md:flex-row items-center bg-gray-800 rounded-lg overflow-hidden"
+                className="flex flex-col md:flex-row items-center bg-secondary rounded-lg overflow-hidden"
               >
                 <Image
                   src={phase.image}

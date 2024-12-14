@@ -64,12 +64,10 @@ const achievements: Achievement[] = [
 export default function TimelineTree() {
   return (
     <div className="py-12">
-      <h2 className="text-3xl font-bold mb-8 text-center text-slate-50">
-        My Journey
-      </h2>
+      <h2 className="text-3xl font-bold mb-8 text-center">My Journey</h2>
       <div className="relative">
         {/* Main vertical line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-slate-600"></div>
+        <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-primary/80"></div>
 
         {achievements.map((achievement, index) => (
           <motion.div
@@ -82,7 +80,7 @@ export default function TimelineTree() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
             {/* Circle on the main branch */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-slate-400 rounded-full"></div>
+            <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full"></div>
 
             {/* Content */}
             <div
@@ -90,16 +88,16 @@ export default function TimelineTree() {
                 index % 2 === 0 ? "pr-8 text-right" : "pl-8"
               }`}
             >
-              <div className="bg-slate-800 p-4 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-2 text-slate-50">
+              <div className="bg-secondary p-4 rounded-lg shadow-lg">
+                <h3 className="text-xl font-semibold mb-2 ">
                   {achievement.title}
                 </h3>
-                <p className="text-slate-300 mb-2">{achievement.description}</p>
+                <p className=" mb-2">{achievement.description}</p>
                 <Link
                   href={achievement.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-400 hover:text-slate-200 flex items-center justify-end"
+                  className=" hover:text-primary flex items-center justify-end"
                 >
                   <Image
                     src={achievement.logo}

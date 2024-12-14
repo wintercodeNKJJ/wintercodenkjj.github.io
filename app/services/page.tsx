@@ -21,7 +21,7 @@ export default function ServicesPage() {
   const [services, setServices] = useState<Service[]>([]);
 
   useEffect(() => {
-    fetch("/data/services.json")
+    fetch("data/services.json")
       .then((response) => response.json())
       .then((data) => setServices(data));
   }, []);

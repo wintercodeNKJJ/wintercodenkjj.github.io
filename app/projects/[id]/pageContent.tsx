@@ -25,8 +25,8 @@ export default function ProjectPage({ id }: { id: string }) {
 
   useEffect(() => {
     async function fetchData() {
-      // const response = await fetch("../data/projects.json");
-      const response = await fetch("data/projects.json");
+      const response = await fetch("../data/projects.json");
+      // const response = await fetch("data/projects.json");
       const data = await response.json();
       const foundProject = data.find((p: Project) => p.id === id);
       setProject(foundProject || null);

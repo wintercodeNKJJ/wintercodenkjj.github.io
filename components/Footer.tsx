@@ -70,7 +70,7 @@ export default function Footer() {
                 <FaLinkedin />
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/wintercodeNKJJ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl hover:text-blue-400 transition-colors"
@@ -78,7 +78,7 @@ export default function Footer() {
                 <FaGithub />
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="https://twitter.com/NguezetJordan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl hover:text-blue-400 transition-colors"

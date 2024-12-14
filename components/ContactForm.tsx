@@ -1,27 +1,41 @@
-"use client"
-import { useState } from 'react'
-import { motion } from 'framer-motion'
+"use client";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function ContactForm({ initialSubject = "" }) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: initialSubject,
-    message: ""
-  })
+    message: "",
+  });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormData(prevState => ({ ...prevState, [name]: value }))
-  }
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({ ...prevState, [name]: value }));
+  };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+    e.preventDefault();
     // Here you would typically send the form data to your server
-    console.log("Form submitted:", formData)
+    console.log("Form submitted:", formData);
+
+    const { name, email, subject, message } = formData;
+
+    // Create the mailto link
+    const mailtoLink = `mailto:kenfackjordanjunior@gmail.com?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\n${message}`
+    )}`;
+    // Open the mailto link
+    window.location.href = mailtoLink;
+
     // Reset form after submission
-    setFormData({ name: '', email: '', subject: '', message: '' })
-  }
+    setFormData({ name: "", email: "", subject: "", message: "" });
+  };
 
   return (
     <motion.form
@@ -32,7 +46,12 @@ export default function ContactForm({ initialSubject = "" }) {
       transition={{ duration: 0.5 }}
     >
       <div className="mb-4">
-        <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Name</label>
+        <label
+          htmlFor="name"
+          className="block text-sm font-medium text-gray-300 mb-2"
+        >
+          Name
+        </label>
         <input
           type="text"
           id="name"
@@ -44,7 +63,12 @@ export default function ContactForm({ initialSubject = "" }) {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Email</label>
+        <label
+          htmlFor="email"
+          className="block text-sm font-medium text-gray-300 mb-2"
+        >
+          Email
+        </label>
         <input
           type="email"
           id="email"
@@ -56,7 +80,12 @@ export default function ContactForm({ initialSubject = "" }) {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-2">Subject</label>
+        <label
+          htmlFor="subject"
+          className="block text-sm font-medium text-gray-300 mb-2"
+        >
+          Subject
+        </label>
         <input
           type="text"
           id="subject"
@@ -68,7 +97,12 @@ export default function ContactForm({ initialSubject = "" }) {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
+        <label
+          htmlFor="message"
+          className="block text-sm font-medium text-gray-300 mb-2"
+        >
+          Message
+        </label>
         <textarea
           id="message"
           name="message"
@@ -86,6 +120,5 @@ export default function ContactForm({ initialSubject = "" }) {
         Send Message
       </button>
     </motion.form>
-  )
+  );
 }
-

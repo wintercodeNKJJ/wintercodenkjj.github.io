@@ -33,11 +33,15 @@ export default function Navbar() {
       icon: FaLinkedin,
       url: "https://www.linkedin.com/in/nguezet-kenfack-jordan-junior",
     },
-    { name: "GitHub", icon: FaGithub, url: "https://github.com/yourusername" },
+    {
+      name: "GitHub",
+      icon: FaGithub,
+      url: "https://github.com/wintercodeNKJJ",
+    },
     {
       name: "Twitter",
       icon: FaTwitter,
-      url: "https://twitter.com/yourusername",
+      url: "https://twitter.com/NguezetJordan",
     },
   ];
 

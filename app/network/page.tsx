@@ -33,6 +33,21 @@ const collaborators = [
     collaboratedProjects: ["Africa System"],
     startDate: "2019-06-01",
   },
+  {
+    name: "Emeran De S-Roger Chuitcheu-Chuigoue",
+    role: "Chargé de communication Kgfried e.V",
+    description:
+      "Étudiant en Mécatronique à Friedberg en Allemagne. (Werkstudent KMT GmbH)",
+    email: "chuitcheur@proton.me",
+    image: "colaborators/roger.jpg",
+    socialLinks: {
+      linkedin:
+        "https://de.linkedin.com/in/emeran-de-s-roger-chuitcheu-chuigoue-5b3209227",
+      twitter: "https://twitter.com/bobsmith",
+    },
+    collaboratedProjects: ["J&D Stocks Manager"],
+    startDate: "2021-06-01",
+  },
 ];
 
 export default function NetworkPage() {

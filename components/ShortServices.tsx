@@ -40,7 +40,7 @@ export default function ShortServices() {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="bg-secondary rounded-lg overflow-hidden shadow-lg"
             >
-              <Image
+              <img
                 src={service.image}
                 alt={service.name}
                 width={200}

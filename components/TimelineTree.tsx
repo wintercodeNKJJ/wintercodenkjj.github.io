@@ -99,7 +99,7 @@ export default function TimelineTree() {
                   rel="noopener noreferrer"
                   className=" hover:text-primary flex items-center justify-end"
                 >
-                  <Image
+                  <img
                     src={achievement.logo}
                     alt={achievement.title}
                     width={20}

@@ -77,7 +77,7 @@ export default function ProjectPage({ id }: { id: string }) {
                 key={index}
                 className="flex flex-col md:flex-row items-center bg-secondary rounded-lg overflow-hidden"
               >
-                <Image
+                <img
                   src={phase.image}
                   alt={phase.phase}
                   width={200}

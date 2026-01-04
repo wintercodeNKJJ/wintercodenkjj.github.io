@@ -54,7 +54,7 @@ export default function Collaborator({
         className="bg-secondary p-3 rounded-lg shadow-lg flex items-center space-x-3"
         whileHover={{ scale: 1.05 }}
       >
-        <Image
+        <img
           src={image}
           alt={name}
           width={40}
@@ -75,7 +75,7 @@ export default function Collaborator({
             exit={{ opacity: 0, y: 10 }}
             className="absolute z-50 bg-background p-4 rounded-lg shadow-xl w-64 left-0 mt-2"
           >
-            <Image
+            <img
               src={image}
               alt={name}
               width={60}

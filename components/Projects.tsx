@@ -58,7 +58,7 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="bg-secondary rounded-lg overflow-hidden shadow-lg"
             >
-              <Image
+              <img
                 src={project.image}
                 alt={project.name}
                 width={500}

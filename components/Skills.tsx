@@ -204,7 +204,7 @@ export default function Skills() {
               className="bg-background p-6 rounded-lg shadow-lg cursor-pointer"
               onClick={() => setSelectedCategory(skillSet)}
             >
-              <Image
+              <img
                 src={skillSet.image}
                 alt={skillSet.category}
                 width={200}

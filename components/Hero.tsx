@@ -67,7 +67,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="lg:w-1/2 mb-10 lg:mb-0"
         >
-          <Image
+          <img
             src="jordanjunior.jpg"
             alt="Nguezet Kenfack Jordan Junior"
             width={400}

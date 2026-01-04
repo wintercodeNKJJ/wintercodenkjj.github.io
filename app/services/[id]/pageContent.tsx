@@ -54,7 +54,7 @@ export default function PageContent({ id }: { id: string }) {
             className="flex flex-col md:flex-row gap-8 mb-12"
           >
             <div className="md:w-1/2">
-              <Image
+              <img
                 src={service.image}
                 alt={service.name}
                 width={400}

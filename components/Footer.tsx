@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-wrap justify-between items-start">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <Image
+            <img
               src="Sitelogo.png"
               alt="Logo"
               width={50}

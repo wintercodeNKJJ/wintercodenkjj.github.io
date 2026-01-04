@@ -139,7 +139,7 @@ export default function ProfessionalExperience() {
             className="mb-16 bg-background rounded-lg p-6 shadow-lg"
           >
             <div className="flex items-center mb-4">
-              <Image
+              <img
                 src={exp.logo}
                 alt={exp.company}
                 width={50}

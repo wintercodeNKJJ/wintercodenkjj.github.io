@@ -42,7 +42,7 @@ export default function Clients() {
           className="bg-background rounded-lg p-6 shadow-lg"
         >
           <div className="flex items-center mb-4">
-            <Image
+            <img
               src={client.logo}
               alt={client.name}
               width={100}

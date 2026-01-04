@@ -41,7 +41,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.5 }}
                 className="bg-secondary rounded-lg overflow-hidden shadow-lg"
               >
-                <Image
+                <img
                   src={service.image}
                   alt={service.name}
                   width={200}

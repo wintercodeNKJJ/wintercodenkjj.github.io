@@ -50,7 +50,7 @@ export default function Education() {
             className="mb-8 bg-background rounded-lg p-6 shadow-lg"
           >
             <div className="flex items-center mb-4">
-              <Image
+              <img
                 src={edu.logo}
                 alt={edu.institution}
                 width={50}

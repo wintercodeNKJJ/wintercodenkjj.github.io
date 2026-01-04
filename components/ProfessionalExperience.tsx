@@ -24,7 +24,7 @@ const experiences = [
         name: "Jason Adiogo",
         role: "Frontend Developer",
         description:
-          "Specializes in creating responsive and intuitive user interfaces using React and modern CSS frameworks.",
+          "Professional web designer and web developer Specializes in creating responsive and intuitive user interfaces using Next.js",
         email: "alice.johnson@example.com",
         image: "colaborators/jason.jpeg",
         socialLinks: {
@@ -40,6 +40,21 @@ const experiences = [
           "KrestHolding",
         ],
         startDate: "2024-03-01",
+        portfolio: "https://hansjason97.github.io/Hanspen/",
+      },
+      {
+        name: "Nzogning Socrat",
+        role: "Frontend Developer",
+        description:
+          "Specializes in creating responsive and intuitive user interfaces using React and modern CSS frameworks.",
+        email: "etarcos3@gmail.com",
+        image: "colaborators/jason.jpeg",
+        socialLinks: {
+          linkedin: "https://www.linkedin.com/in/jason-adiogo",
+          github: "https://github.com/alicejohnson",
+        },
+        collaboratedProjects: ["Krestholding"],
+        startDate: "2024-05-01",
         portfolio: "https://hansjason97.github.io/Hanspen/",
       },
     ],
@@ -130,66 +145,68 @@ export default function ProfessionalExperience() {
         >
           Professional Experience
         </motion.h2>
-        {experiences.map((exp, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="mb-16 bg-background rounded-lg p-6 shadow-lg"
-          >
-            <div className="flex items-center mb-4">
-              <img
-                src={exp.logo}
-                alt={exp.company}
-                width={50}
-                height={50}
-                className="mr-4"
-              />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {experiences.map((exp, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="mb-16 bg-background rounded-lg p-6 shadow-lg"
+            >
+              <div className="flex items-center mb-4">
+                <img
+                  src={exp.logo}
+                  alt={exp.company}
+                  width={50}
+                  height={50}
+                  className="mr-4"
+                />
+                <div>
+                  <h3 className="text-2xl font-semibold">{exp.company}</h3>
+                  <p className="text-xl text-blue-400">{exp.position}</p>
+                  <p className="text-gray-400">{exp.period}</p>
+                </div>
+              </div>
+              <p className="mb-4">{exp.description}</p>
+              <div className="mb-4">
+                <h4 className="text-lg font-semibold mb-2">
+                  Company Description:
+                </h4>
+                <p>{exp.companyDescription}</p>
+              </div>
+              <div className="mb-4">
+                <h4 className="text-lg font-semibold mb-2">Projects:</h4>
+                <ul className="list-disc list-inside">
+                  {exp.projects.map((project, projectIndex) => (
+                    <li key={projectIndex}>{project}</li>
+                  ))}
+                </ul>
+              </div>
               <div>
-                <h3 className="text-2xl font-semibold">{exp.company}</h3>
-                <p className="text-xl text-blue-400">{exp.position}</p>
-                <p className="text-gray-400">{exp.period}</p>
+                <h4 className="text-lg font-semibold mb-2">Skills:</h4>
+                <div className="flex flex-wrap gap-2">
+                  {exp.skills.map((skill, skillIndex) => (
+                    <span
+                      key={skillIndex}
+                      className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
-            <p className="mb-4">{exp.description}</p>
-            <div className="mb-4">
-              <h4 className="text-lg font-semibold mb-2">
-                Company Description:
-              </h4>
-              <p>{exp.companyDescription}</p>
-            </div>
-            <div className="mb-4">
-              <h4 className="text-lg font-semibold mb-2">Projects:</h4>
-              <ul className="list-disc list-inside">
-                {exp.projects.map((project, projectIndex) => (
-                  <li key={projectIndex}>{project}</li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Skills:</h4>
-              <div className="flex flex-wrap gap-2">
-                {exp.skills.map((skill, skillIndex) => (
-                  <span
-                    key={skillIndex}
-                    className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm"
-                  >
-                    {skill}
-                  </span>
-                ))}
+              <div>
+                <h4 className="text-lg font-semibold mb-4">Collaborators:</h4>
+                <div className="flex flex-wrap gap-4">
+                  {exp.collaborators.map((collaborator, collabIndex) => (
+                    <Collaborator key={collabIndex} {...collaborator} />
+                  ))}
+                </div>
               </div>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Collaborators:</h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {exp.collaborators.map((collaborator, collabIndex) => (
-                  <Collaborator key={collabIndex} {...collaborator} />
-                ))}
-              </div>
-            </div>
-          </motion.div>
-        ))}
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );

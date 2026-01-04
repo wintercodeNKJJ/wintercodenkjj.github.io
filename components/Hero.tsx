@@ -72,7 +72,7 @@ export default function Hero() {
             alt="Nguezet Kenfack Jordan Junior"
             width={400}
             height={400}
-            className="rounded-full shadow-2xl mx-auto object-cover"
+            className="rounded-full shadow-2xl mx-auto object-cover aspect-square"
           />
         </motion.div>
       </div>

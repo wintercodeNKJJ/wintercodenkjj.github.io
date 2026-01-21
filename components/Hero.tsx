@@ -68,7 +68,7 @@ export default function Hero() {
           className="lg:w-1/2 mb-10 lg:mb-0"
         >
           <img
-            src="jordanjunior.jpg"
+            src="jordanjunior.jpeg"
             alt="Nguezet Kenfack Jordan Junior"
             width={400}
             height={400}
